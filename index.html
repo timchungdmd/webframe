@@ -5,11 +5,22 @@
 <head>
 
     <style>
-        
+        <script>
+            var c = prompt('Do you want change the background color of this website?(yes/) : ');
+            
+            switch(c){
+                case 'no':
+                    break;
+                case 'yes':
+                    var color = prompt("Enter the color you want on the Background???");
+                    document.body.style.backgroundColor = color;
+                }
+            
+             </script>
     
 
         body {
-          background-color: linen;
+          background-color: color;
         }
         
         h1 {
@@ -44,23 +55,7 @@
     
         
     </style>
-    <script>
-        var c = prompt('Do you want change the background color of this website?(yes/) : ');
-        
-        switch(c){
-            case 'no':
-                break;
-            case 'yes':
-                function changeBackground() {{
-                    var color = prompt("What color");
-                    document.bgColor = color;
-                }
-                
-                document.getElementById("submitColor").addEventListener("click", changeBackground, false);
-                }
-            }
-        
-         </script>
+    
 </head>
 
     <meta charset="utf-8">
