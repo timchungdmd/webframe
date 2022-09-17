@@ -4,19 +4,23 @@
     
 <head>
     <script>
-        var c = prompt('Do you want change the background color of this website?(yes/no) : ');
-        
-        switch(c){
-            case 'no':
-                break;
-            case 'yes':
+       
+        function myFunction() {
+            let text = "Do you want to change the background of this website?";
+            if (confirm(text) == true) {
                 color = prompt("Enter the color you want on the Background?(black,white,red,blue,green,pink");
                 function myFunction(){
                 document.body.style.backgroundColor = color;
                 }
+            } else {
+              text = "You canceled!";
             }
+            document.getElementById("demo").innerHTML = text;
+          }
+        
+      
             
-              
+            
             
          </script>
     <style>
@@ -79,6 +83,8 @@
 
 <body>
     <button type="button" onclick="myFunction()" style="height:200px;width:200px">Click Here to Change Background Color</button>
+    
+
     <h2> Header 2</h2>
     <p> Paragraph This is where body of the content would go</p>
         <img src="https://images.freeimages.com/images/large-previews/77f/the-dog-1312101.jpg">
