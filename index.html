@@ -51,10 +51,17 @@
             case 'no':
                 break;
             case 'yes':
-                function paintIt(){
-                color = prompt("Enter the color you want on the Background???");
-                switch (color){
+                function myFunction(){
+            
+                  do{
+                    var a=prompt("Input backgroud color.","red");
+                    document.body.style.backgroundColor=a;
+                    var b=prompt("Input foreground color.","green");
+                    document.body.style.color=b;
+                  }while(a!="");
                 }
+            
+              </script>
             }
             
             }
