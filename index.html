@@ -3,20 +3,20 @@
 <html lang="en-US">
     
 <head>
-
+    <script>
+        var c = prompt('Do you want change the background color of this website?(yes/no) : ');
+        
+        switch(c){
+            case 'no':
+                break;
+            case 'yes':
+                color = prompt("Enter the color you want on the Background???");
+                document.body.style.backgroundColor = color;
+            }
+        
+         </script>
     <style>
-        <script>
-            var c = prompt('Do you want change the background color of this website?(yes/) : ');
-            
-            switch(c){
-                case 'no':
-                    break;
-                case 'yes':
-                    var color = prompt("Enter the color you want on the Background???");
-                    document.body.style.backgroundColor = color;
-                }
-            
-             </script>
+        
     
 
         body {
