@@ -45,31 +45,22 @@
         
     </style>
     <script>
-        var c = prompt('Do you want change the background color of this website?(yes/no) : ');
+        var c = prompt('Do you want change the background color of this website?(yes/) : ');
         
         switch(c){
             case 'no':
                 break;
             case 'yes':
-                function myFunction(){
-            
-                  do{
-                    var a=prompt("Input backgroud color.","red");
-                    document.body.style.backgroundColor=a;
-                    var b=prompt("Input foreground color.","green");
-                    document.body.style.color=b;
-                  }while(a!="");
+                function changeBackground() {{
+                    var color = prompt("What color");
+                    document.bgColor = color;
                 }
-            
-              </script>
-            }
-            
+                
+                document.getElementById("submitColor").addEventListener("click", changeBackground, false);
+                }
             }
         
          </script>
-         <form>
-            <input type = "button" value = "Paint Me" onclick ="paintIt()">
-         </form>
 </head>
 
     <meta charset="utf-8">
@@ -85,7 +76,6 @@
 </nav></div>
 
 <body>
-    
     <h1> Header 1</h1>
     <h2> Header 2</h2>
     <p> Paragraph This is where body of the content would go</p>
