@@ -3,7 +3,28 @@
 <html lang="en-US">
     
 <head>
-    <script type="text/javascript src="webframe.js>
+    <script>
+       
+        function myFunction() {
+            let text = "Do you want to change the background of this website?";
+            if (confirm(text) == true) {
+                color = prompt("Enter the color you want on the Background?(black,white,red,blue,green,pink)");
+                function myFunction(){
+                document.body.style.backgroundColor = color;
+                }
+            } else {
+              text = "You canceled!";
+            }
+            document.getElementById("demo").innerHTML = text;
+          }
+        
+        function changecolor() {
+            document.body.style.backgroundColor = color;
+        }    
+            
+            
+            
+         </script>
     <style>
         
     
@@ -58,14 +79,13 @@
 <div class="nav">
 <nav>
     <p>Click the button to change background color</p>
-    
+
     <button onclick="myFunction()">CLICK HERE TO PICK A COLOR </button>
    
     
 </nav></div>
 
 <body>
-   
     <button type="button" onclick="changecolor()" >Click Here to Change the Background Color</button>
     
 
@@ -73,12 +93,11 @@
     <p> Paragraph This is where body of the content would go</p>
         <img src="https://images.freeimages.com/images/large-previews/77f/the-dog-1312101.jpg">
         
-        <br><p> Above is an example of an image tag</p>
+        <br><p> Above is an example of an imgage tag</p>
 <div class="footer">
 <footer>This is where the footer would go</footer></div>
-</script>  
-
+  </body>
   </div>
-</script>  
+
 </html>
 l
