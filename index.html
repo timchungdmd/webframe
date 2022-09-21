@@ -3,28 +3,7 @@
 <html lang="en-US">
     
 <head>
-    <script>
-       
-        function myFunction() {
-            let text = "Do you want to change the background of this website?";
-            if (confirm(text) == true) {
-                color = prompt("Enter the color you want on the Background?(black,white,red,blue,green,pink)");
-                function myFunction(){
-                document.body.style.backgroundColor = color;
-                }
-            } else {
-              text = "You canceled!";
-            }
-            document.getElementById("demo").innerHTML = text;
-          }
-        
-        function changecolor() {
-            document.body.style.backgroundColor = color;
-        }    
-            
-            
-            
-         </script>
+    
     <style>
         
     
@@ -79,8 +58,8 @@
 <div class="nav">
 <nav>
     <p>Click the button to change background color</p>
-
-    <button onclick="myFunction()">CLICK HERE TO PICK A COLOR </button>
+    <script type="text/javascript" src="webframe/webframescript.js">
+    <button onclick="myFunction()">CLICK HERE TO PICK A COLOR </button></script>
    
     
 </nav></div>
