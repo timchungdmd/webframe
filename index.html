@@ -6,14 +6,14 @@
     <script>
        
         function myFunction() {
-            const colorlist=['black','white','read','blue','green','pink','yellow']
+            const colorlist=['black','white','read','blue','green','pink','yellow'];
             let text = "Do you want to change the background of this website?";
             if (confirm(text) == true) {
                 color = prompt("Enter the color you want on the Background?(black,white,red,blue,green,pink,yellow)");
                 function changecolor(){
                 document.body.style.backgroundColor = color;
                 }
-            } else if(colorlist.includes(color)===false){
+            } else if(colorlist.includes(color)!==true){
               text = prompt("Sorry we don't have that color, please try again.");
             }
             
