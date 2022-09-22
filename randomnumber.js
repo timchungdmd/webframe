@@ -12,5 +12,5 @@ function guessNumber() {
     }
    
   }
-  alert('You used all your chances. Come back tomorrow for to try again')
+  
 guessNumber();
