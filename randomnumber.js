@@ -14,7 +14,7 @@ function guessNumber() {
 
 guessNumber();
 
-function getPokeball(src,randomnumbergenerator){
+function getPokeball(){
     let img = document.createElement("img");
         img.src = 'pokeball.png';
         img.width = '50%';
@@ -25,4 +25,5 @@ function getPokeball(src,randomnumbergenerator){
         document.body.appendChild(img);
 }
 }
+getPokeball();
   
