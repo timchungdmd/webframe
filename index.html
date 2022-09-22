@@ -15,14 +15,16 @@
                 if(colorlist.includes(color)===true){
                 function chngColor(){
                     document.body.style.backgroundColor = color;
-                    }}
+                    }
+                }
                 else{
                     alert("Sorry we don't have that color available. Please try again.");
                 }
-        }
-            else if(confirm(text)===false)
-            {exitlog=alert("You decided to stick with current color.");}
             }
+            else if(confirm(text)===false){
+                exitlog=alert("You decided to stick with the current color.");
+                }
+        }
             
           
         
