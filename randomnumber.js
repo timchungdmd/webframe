@@ -10,6 +10,7 @@ function guessNumber() {
         console.log('Congratulations! You guessed the correct number.');
     }
     }
-    alert('You used all your chances. Come back tomorrow for to try again')
+   
   }
+  alert('You used all your chances. Come back tomorrow for to try again')
 guessNumber();
