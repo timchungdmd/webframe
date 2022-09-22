@@ -11,12 +11,5 @@ function guessNumber() {
         }
        
     }
-const images = 'pokeball.jpeg';
-
-for (let x = 0; x < randomnumbergenerator; x++) {
-                        
-        const element = '<img src="' + images + '">'
-        document.querySelector('.images').innerHTML += element;
 
 
-}
