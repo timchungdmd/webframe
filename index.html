@@ -32,6 +32,22 @@
         function changecolor() {
             document.body.style.backgroundColor = color;
         }    
+
+        function getPokeball() {
+            var src = "pokebball.png";
+            for(i=0; i<randomnumbergenerator; i++){
+            show_image("pokeball.png", 276,110, "pokeball");}
+        }
+        getPokeball();
+        function showpokeball(){
+            let img = document.createElement("img");
+                img.src = 'pokeball.png';
+                img.width = width;
+                img.height = height;
+                img.randomnumbergenerator = randomnumbergenerator;
+                document.body.appendChild(img);
+        }
+        
             
             
             
@@ -100,7 +116,7 @@
     <button type="button" onclick="chngColor()" >Click Here to Change the Background Color</button>
     
 
-    <h2><button type="button" onclick="getPokeball()">CLICK HERE RECEIVE YOUR POKEBALLS</button></h2>
+    <h2><button type="button" onclick="getPokeball()">CLICK HERE TO RECEIVE YOUR POKEBALLS</button></h2>
     <p> 
         <div class="container-fluid">
            <img class=rounded src="pokeballmachine.png" width=50% height=50%>
