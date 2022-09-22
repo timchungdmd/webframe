@@ -9,8 +9,7 @@ function guessNumber() {
         }
         else if(number===randomnumbergenerator){
         alert('Congratulations! You guessed the correct number.');
-        }
-    alert('You used all your chances. Please try again later');    
+        }   
     }
    
   
