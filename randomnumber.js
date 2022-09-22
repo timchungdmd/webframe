@@ -8,7 +8,7 @@ function guessNumber() {
         }
     if(number===randomnumbergenerator){
         number=randomnumbergenerator;
-        alert('Congratulations! You guessed the correct number'+number);
+        alert(`Congratulations! you have to capture ${randomnumbergenerator} pokemons`);
         }
        
     }
