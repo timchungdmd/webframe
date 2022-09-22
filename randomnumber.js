@@ -3,16 +3,14 @@ function guessNumber() {
 
     let number = parseInt(prompt('Pick a number between 1 and 10: '));
     
-    while(true){
-        if(number===randomnumbergenerator){
+    while(number!==randomnumbergenerator){
         alert('Congratulations! You guessed the correct number.');
-        } 
-        if(number!==randomnumbergenerator){
+        }
+    if(number==randomnumbergenerator){
         number = parseInt(prompt('Wrong number, pick another number between 1 and 10: '));
-        
         }
        
     }
-}  
+
 
   
