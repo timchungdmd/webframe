@@ -6,12 +6,11 @@ function guessNumber() {
     if(number.toLowerCase()==='quit'){
         alert('Goodbye! Try again later');
     }
-    else if(number!==randomnumbergenerator){
+    while(number!==randomnumbergenerator){
         number = parseInt(prompt('Wrong number, pick another number between 1 and 10: '));
         }
-    if(number===randomnumbergenerator){
-        alert('Congratulations! You guessed the correct number.');
-        }   
+    alert('Congratulations! You guessed the correct number.');
+         
   
     }
     
