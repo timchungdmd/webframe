@@ -12,5 +12,5 @@ function guessNumber() {
        
     }
 
-
+guessNumber();
   
