@@ -12,5 +12,6 @@ function guessNumber() {
         console.log('You guessed the correct number.');
     }
     }
+    alert('You used all your chance. Come back tomorrow for to try again')
   }
 guessNumber();
