@@ -1,13 +1,19 @@
 function guessNumber() {
     const randomnumbergenerator = Math.floor(Math.random() * 10) + 1;
-    let number = prompt('Pick a number between 1 and 10\(type quit if you don\'t want to play the game\): ');
-       if(parseInt(number)!==randomnumbergenerator){
-            number=prompt('Wrong number, pick another number between 1 and 10: ');
+
+    let number = parseInt(prompt('Pick a number between 1 and 10. You only get 5 chances: '));
+    i=0;
+    while(i<6){    
+        if(number!==randomnumbergenerator){
+        number = parseInt(prompt('Wrong number, pick another number between 1 and 10: '));
+        i+=1;
         }
-        
     
-        
-    alert('Congratulations! You guessed the correct number.');
-         
+        else if(number===randomnumbergenerator){
+        alert('Congratulations! You guessed the correct number.');
+        }
     }
-    
+   
+  }
+  
+guessNumber();
