@@ -14,12 +14,17 @@ function guessNumber() {
 
 guessNumber();
 
-function getPokeball(){
+function getPokeball() {
+    var src = "pokebball.png";
+    show_image("pokeball.png", 276,110, "pokeball");
+}
+
+function showpokeball(){
     let img = document.createElement("img");
         img.src = 'pokeball.png';
-        img.width = '50%';
-        img.height = '50%';
-        img.randomnumbergenerator = randomnumbergenerator;;
+        img.width = width;
+        img.height = height;
+        img.randomnumbergenerator = randomnumbergenerator;
     
     for (i=0; i<randomnumbergenerator;i++){
         document.body.appendChild(img);
