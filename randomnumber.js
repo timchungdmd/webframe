@@ -28,6 +28,6 @@ function showpokeball(){
         img.randomnumbergenerator = randomnumbergenerator;
         document.body.appendChild(img);
 }
-
+getPokeball();
 
   
