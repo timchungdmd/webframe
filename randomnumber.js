@@ -19,4 +19,4 @@ for (let x = 0; x < randomnumbergenerator; x++) {
         document.querySelector('.images').innerHTML += element;
 
 
-  
+}
