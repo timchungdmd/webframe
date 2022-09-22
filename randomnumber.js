@@ -9,6 +9,6 @@ function guessNumber() {
         alert('Congratulations! You guessed the correct number.');
         }   
     if(number.toLowerCase()==='quit'){
-        alert('Goodbye! Try again later')
+        alert('Goodbye! Try again later');
     }
     }
