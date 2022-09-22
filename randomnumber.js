@@ -7,7 +7,7 @@ function guessNumber() {
         number = parseInt(prompt('Wrong number, pick another number between 1 and 10: '));
         }
     if(number==randomnumbergenerator){
-        prompt('Congratulations! You guessed the correct number.');
+        alert('Congratulations! You guessed the correct number.');
         }
        
     }
