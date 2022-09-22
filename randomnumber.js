@@ -14,15 +14,15 @@ function guessNumber() {
 
 guessNumber();
 
-function getPokeball(){
+function getPokeball(src,randomnumbergenerator){
     let img = document.createElement("img");
-        img.src = src;
-        img.width = width;
-        img.height = height;
-        img.alt = alt;
+        img.src = 'pokeball.png';
+        img.width = '50%';
+        img.height = '50%';
+        img.randomnumbergenerator = randomnumbergenerator;;
     
-        // This next line will just add it to the <body> tag
+        for (i=0; i<randomnumbergenerator;i++){
         document.body.appendChild(img);
-    }
-
+}
+}
   
