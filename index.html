@@ -13,12 +13,11 @@
             if (confirm(text) === true) {
                 color = prompt("Enter the color you want on the Background?(black,white,red,blue,green,pink,yellow)");
                 if(colorlist.includes(color)===true){
-                function myFunction1(){
+                function myFunction(){
                     document.body.style.backgroundColor = color;
                     }
                 }else{
                     alert("Sorry we don't have that color available. Please try again.");
-                    continue;
                 }
         }
             exitlog=alert("You decided to stick with current color.");
