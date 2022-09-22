@@ -7,7 +7,6 @@ function guessNumber() {
         number = parseInt(prompt('Wrong number, pick another number between 1 and 10: '));
         }
     if(number===randomnumbergenerator){
-        number=randomnumbergenerator;
         alert(`Congratulations! you have to capture ${randomnumbergenerator} pokemons`);
         }
        
