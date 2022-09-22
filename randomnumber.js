@@ -21,7 +21,7 @@ function getPokeball(){
         img.height = '50%';
         img.randomnumbergenerator = randomnumbergenerator;;
     
-        for (i=0; i<randomnumbergenerator;i++){
+    for (i=0; i<randomnumbergenerator;i++){
         document.body.appendChild(img);
 }
 }
