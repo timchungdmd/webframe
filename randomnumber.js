@@ -13,10 +13,7 @@ function guessNumber() {
     }
 guessNumber();
 
-function getPokeball(){
-  for(i=0; i<randomnumbergenerator; i++){
-    document.write(<img src="pokeball.png" alt="Pokeball" />);
-}
+
 
 
 
