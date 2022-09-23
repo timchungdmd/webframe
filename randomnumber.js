@@ -11,7 +11,6 @@ function guessNumber() {
         }
        
     }
-
 guessNumber();
 
 function getPokeball(){
