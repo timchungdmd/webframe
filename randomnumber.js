@@ -14,19 +14,27 @@ function guessNumber() {
 
 guessNumber();
 
-function getPokeball() {
-    var src = "pokebball.png";
-    for(i=0; i<randomnumbergenerator; i++){
-    show_image("pokeball.png", 276,110, "pokeball");}
+function getPokeball(){
+  for(i=0; i<randomnumbergenerator; i++){
+    document.write(<img src="pokeball.png" alt="Pokeball" />);
 }
-getPokeball();
-function showpokeball(){
-    let img = document.createElement("img");
-        img.src = 'pokeball.png';
-        img.width = width;
-        img.height = height;
-        img.randomnumbergenerator = randomnumbergenerator;
-        document.body.appendChild(img);
+
+
+
+
+//function getPokeball() {
+  //  var src = "pokebball.png";
+  //  for(i=0; i<randomnumbergenerator; i++){
+   // show_image("pokeball.png", 276,110, "pokeball");}
+
+//getPokeball();
+//function showpokeball(){
+ //   let img = document.createElement("img");
+  //      img.src = 'pokeball.png';
+   //     img.width = width;
+    //    img.height = height;
+     //   img.randomnumbergenerator = randomnumbergenerator;
+      //  document.body.appendChild(img);
 }
 getPokeball();
 
