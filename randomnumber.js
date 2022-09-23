@@ -8,7 +8,7 @@ function guessNumber() {
         number = parseInt(prompt('Wrong! Guess again: '));
         }
     if(number===randomnumber){
-        alert(`Congratulations! you have to capture ${randomnumbergenerator} pokemons`);
+        alert(`Congratulations! you have to capture ${randomnumber} pokemons`);
         }
        
     }
@@ -17,6 +17,7 @@ function guessNumber() {
 
 function getPokeball(){
 const myImages = document.images;
+let randomnumber=parseInt(prompt('How many pokeballs do you need?'));
 let text = "";
 for (let i = 0; i <randomnumber; i++) {
   console.log('test');
