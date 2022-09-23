@@ -16,8 +16,7 @@ guessNumber();
 
 function getPokeball() {
     var src = "pokebball.png";
-    for(i=0; i<randomnumbergenerator; i++){
-    show_image("pokeball.png", 276,110, "pokeball");}
+    show_image("pokeball.png", 276,110, "pokeball");
 }
 getPokeball();
 function showpokeball(src, randomnumbergenerator){
