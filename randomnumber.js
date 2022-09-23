@@ -20,7 +20,7 @@ function getPokeball() {
     show_image("pokeball.png", 276,110, "pokeball");}
 }
 getPokeball();
-function showpokeball(){
+function showpokeball(src, randomnumbergenerator){
     let img = document.createElement("img");
         img.src = 'pokeball.png';
         img.width = width;
