@@ -11,8 +11,6 @@ function guessNumber() {
         }
        
     }
-guessNumber();
-
 
 
 
