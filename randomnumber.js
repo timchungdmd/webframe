@@ -32,4 +32,3 @@ guessNumber();
      //   img.randomnumbergenerator = randomnumbergenerator;
       //  document.body.appendChild(img);
 
-}
