@@ -18,17 +18,9 @@ guessNumber();
 
 
 
-//function getPokeball() {
-  //  var src = "pokebball.png";
-  //  for(i=0; i<randomnumbergenerator; i++){
-   // show_image("pokeball.png", 276,110, "pokeball");}
-
-//getPokeball();
-//function showpokeball(){
- //   let img = document.createElement("img");
-  //      img.src = 'pokeball.png';
-   //     img.width = width;
-    //    img.height = height;
-     //   img.randomnumbergenerator = randomnumbergenerator;
-      //  document.body.appendChild(img);
-
+function showPicture() {
+  var sourceOfPicture = "http://img.tesco.com/Groceries/pi/118/5000175411118/IDShot_90x90.jpg";
+  var img = document.getElementById('bigpic')
+  img.src = sourceOfPicture.replace('90x90', '225x225');
+  img.style.display = "block";
+} 
