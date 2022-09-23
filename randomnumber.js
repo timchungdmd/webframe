@@ -35,7 +35,5 @@ function getPokeball(){
     //    img.height = height;
      //   img.randomnumbergenerator = randomnumbergenerator;
       //  document.body.appendChild(img);
-}
-getPokeball();
 
-  
+}
