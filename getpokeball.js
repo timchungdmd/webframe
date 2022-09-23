@@ -5,6 +5,7 @@ function getPokeball(){
     for (let i = 0; i <randomnumber; i++) {
       text+=console.log('test');
     }
-    document.write(text);
+    let pokeballs=document.write("test")* randomnumber;
+    console.log(pokeballs)
     }
     getPokeball();
