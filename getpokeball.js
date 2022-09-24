@@ -10,8 +10,8 @@ function getPokeball(){
     else if(typeof randomnumber=='number' && randomnumber<=10){
          
           //let img=document.write('<img  src="pokeball.png" width=30%; height=30%;margin: 1px;" />');
-          let image= "img  src=\"pokeball.png\" width=30%; height=30%" 
-          document.getElementsByClassName("container-fluid").innerHTML = img
+          let image= "img  src=\"pokeball.png\" width=15%; height=15%" 
+          document.getElementsByClassName("pokeball").innerHTML = img
     }}
     //document.getElementById("pokeball").innerHTML = "Hello World!";
 
