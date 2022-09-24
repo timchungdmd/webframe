@@ -9,7 +9,7 @@ function getPokeball(){
     }
     else if(typeof randomnumber=='number' && randomnumber<=10){
          
-          img=document.write('<img  src="pokeball.png" margin: 1px;" />');
+          img=document.write('<img  src="pokeball.png" width=30%; height=30%;margin: 1px;" />');
           document.getElementById("pokeball").innerHTML = img;
         }
    
