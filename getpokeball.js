@@ -10,7 +10,7 @@ function getPokeball(){
     else if(typeof randomnumber=='number' && randomnumber<=10){
         
         
-        let parent    = document.getElementById('rounded');
+        let parent    = document.getElementById('images');
         imagePath = 'pokeball.png';
         img;
     
