@@ -10,14 +10,20 @@ function getPokeball(){
     else if(typeof randomnumber=='number' && randomnumber<=10){
         
         
-            let default_image = document.getElementsByClassName('container-fluid');
-            for(let i = 1; i <= randomnumber; i++){
-            let default_img_src = "pokeball.png";
-            default_image.src = default_img_src;
+        let parent    = document.getElementById('images'),
+        imagePath = 'pokeball.png',
+        img;
+    
+        for (let i = 0; i <= randomnumber; i++) {
+        img = new Image();
+        img.src = imagePath;
+        parent.appendChild(img);
+    }
+    
             }
           //let img=document.write('<img  src="pokeball.png" width=30%; height=30%;margin: 1px;" />');
           //let image= "img  src=\"pokeball.png\" width=15%; height=15%" 
           //document.getElementsByClassName("pokeball").innerHTML = img
-    }}
+    }
     //document.getElementById("pokeball").innerHTML = "Hello World!";
 
