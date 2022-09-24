@@ -10,10 +10,11 @@ function getPokeball(){
     else if(typeof randomnumber=='number' && randomnumber<=10){
 
         for (let i = 0; i <randomnumber; i++) {
-            let pokeballs=document.write("test")* randomnumber;
-            console.log(pokeballs)
+            pokeballs=document.getElementById("pokeball").innerHTML = "Hello World!";
+            console.log(pokeballs);
             }
    
     }
+    
 }
 getPokeballs();
