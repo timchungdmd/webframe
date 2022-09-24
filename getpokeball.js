@@ -17,7 +17,7 @@ function getPokeball(){
         for (let i = 1; i <= randomnumber; i++) {
         img = new Image();
         img.src = imagePath;
-        parent.appendChild(img, i);
+        parent.appendChild(img);
         }
     
     }
