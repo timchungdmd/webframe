@@ -11,8 +11,8 @@ function getPokeball(){
         
         
             let default_image = document.getElementsByClassName('container-fluid');
-            for(var i = 1; i <= randomnumber; i++){
-            var default_img_src = "pokeball.png";
+            for(let i = 1; i <= randomnumber; i++){
+            let default_img_src = "pokeball.png";
             default_image.src = default_img_src;
             }
           //let img=document.write('<img  src="pokeball.png" width=30%; height=30%;margin: 1px;" />');
