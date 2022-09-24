@@ -14,10 +14,11 @@ function getPokeball(){
         imagePath = 'pokeball.png',
         img;
     
-        for (let i = 0; i <= randomnumber; i++) {
+        for (let i = 1; i <= randomnumber+1; i++) {
         img = new Image();
         img.src = imagePath;
         parent.appendChild(img);
+        console.log(i);
     }
     
             }
