@@ -10,8 +10,8 @@ function getPokeball(){
     else if(typeof randomnumber=='number' && randomnumber<=10){
         
         
-        let parent = document.getElementById('images');
-        imagePath = 'pokeball.png';
+        let parent = document.getElementById('images'),
+        imagePath = 'pokeball.png',
         img;
     
         for (let i = 1; i <= randomnumber+1; i++) {
