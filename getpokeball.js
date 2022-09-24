@@ -8,13 +8,11 @@ function getPokeball(){
         parseInt(prompt('You can\'t have more than 10 pokeballs. How many pokeballs do you need'));
     }
     else if(typeof randomnumber=='number' && randomnumber<=10){
-
-        for (let i = 0; i <randomnumber; i++) {
-            pokeballs=document.getElementById("pokeball").innerHTML = "Hello World!";
-            console.log(pokeballs);
-            }
+          let pokeballs=document.getElementById("pokeball").innerHTML = "Hello World!";
+          console.log(pokeballs*randomnumber);
+        }
    
     }
-    
-}
+    //document.getElementById("pokeball").innerHTML = "Hello World!";
+
 getPokeballs();
