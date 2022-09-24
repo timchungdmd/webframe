@@ -8,7 +8,7 @@ function guessNumber() {
         number = parseInt(prompt('Wrong! Guess again: '));
         }
     if(number===randomnumber){
-        alert(`Congratulations! you have to capture ${randomnumber} pokemons`);
+        alert(`Congratulations! You need to capture ${randomnumber} pokemons`);
         }
        
     }
