@@ -11,7 +11,7 @@ function getPokeball(){
 
         for (let i = 0; i <randomnumber; i++) {
             pokeballs=document.getElementById("pokeball").innerHTML = "Hello World!";
-            console.log(pokeballs*randomnumber);
+            console.log(pokeballs);
             }
    
     }
