@@ -11,7 +11,7 @@ function getPokeball(){
         
         
         let parent = document.getElementById('images'),
-        imagePath = 'pokeball.jpg',
+        imagePath = 'pokeball.jpeg',
         img;
     
         for (let i = 1; i <= randomnumber; i++) {
