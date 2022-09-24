@@ -9,9 +9,9 @@ function getPokeball(){
     }
     else if(typeof randomnumber=='number' && randomnumber<=10){
         
-        
-        let parent    = document.getElementsById('images'),
-        imagePath = 'pokeball.png',
+        console.log(i);
+        let parent    = document.getElementsByClassName('container-fluid');
+        imagePath = 'pokeball.png';
         img;
     
         for (let i = 1; i <= randomnumber+1; i++) {
